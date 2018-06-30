@@ -1,7 +1,7 @@
 
 var colorInput=document.querySelector("#colorPicker");
 var gridHeight=document.querySelector("#inputHeight");
-var gridWidth=document.querySelector("#inputWeight");
+var gridWidth=document.querySelector("#inputWidth");
 var gridCanvas=document.querySelector("#pixelCanvas");
 
 function clickedBox(e){
