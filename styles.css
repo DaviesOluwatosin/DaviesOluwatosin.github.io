@@ -1,64 +1,65 @@
+html {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Helvetica", sans-serif;
+  font-size: 62.5%;
+  min-height: 100vh;
+}
+
 body {
-    text-align: center;
-    background-color: #eeeeee;
+  text-align: center;
 }
 
 h1 {
-    font-family: Monoton;
-    font-size: 70px;
-    margin: 0.2em;
-    color: #1e88e5;
+  font-family: Monoton;
+  font-size: 7rem;
+  margin: 0.2em;
 }
 
 h2 {
-    margin: 1em 0 0.25em;
-    color: #ff9800;
+  font-size: 2.2rem;
+  margin: 1em 0 0.25em;
 }
 
 h2:first-of-type {
-    margin-top: 0.5em;
-
+  margin-top: .5em;
+  margin-bottom: .5em;
 }
 
 table,
 tr,
 td {
-    border: 2px solid black;
+  border: 1px solid black;
 }
 
 table {
-    border-collapse: collapse;
-    margin: 0 auto;
+  border-collapse: collapse;
+  margin: 0 auto;
 }
 
 tr {
-    height: 30px;
+  height: 100px;
 }
 
 td {
-    width: 30px;
+  width: 100px;
 }
 
-input[type=number] {
-    width: 6em;
-    height: 1.5em;
+form {
+  font-size: 1.6rem;
 }
 
-#inputHeight{
-
-    font-size: 1em;
-    text-align: center;
+input[type="number"] {
+  font-size: 1.6rem;
+  padding: 5px;
+  width: 6em;
 }
 
-#inputWidth{
-
-     font-size: 1em;
-    text-align: center;
-
+input[type="submit"] {
+  padding: 5px;
 }
 
-form{
-
-color: #1e88e5;
-    
+#colorPicker {
+  width: 150px;
+  height: 50px;
 }
